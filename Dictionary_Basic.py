@@ -30,6 +30,8 @@ print(f"Key in {'awesome' in sample_01_1}") # False
 print(f"Value in {'Colt' in sample_01_1.values()}") # True
 print(f"Value in {'Nope!' in sample_01_1.values()}") # False
 
+      
+      
 # ----------------------------------------------------------------------------------------
 # Sample 02: Dictionary Methods
 # ----------------------------------------------------------------------------------------
@@ -81,6 +83,8 @@ second.update(first) # {'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5}
 # the update overrides our values
 second # {'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5}
 
+      
+      
 # ----------------------------------------------------------------------------------------
 # Sample 03: Dictionary Comprehension
 # the syntax
